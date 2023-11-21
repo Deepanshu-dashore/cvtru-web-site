@@ -68,7 +68,7 @@ nav{
     width: 20px;
 }
 .aboutlinks{
-    width: inherit;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -86,11 +86,13 @@ nav{
     left: 8%;
     justify-content: space-evenly;
     width: 50%;
+    letter-spacing: 2px;
     height: 40%;
 }
 .contant span{
    border-bottom:  2px solid lime;
    color: white;
+   font-weight: bolder;
 }
 .media{
     display: flex;
