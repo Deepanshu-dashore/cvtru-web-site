@@ -32,12 +32,12 @@ nav{
     color: white;
 }
 #homePage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homeBackground.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homebg.jpg");
     background-size: cover;
     height: 100vh;
 }
 #AboutPage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homeBackground.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homebg.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -50,10 +50,10 @@ nav{
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-
-
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.homeH2{
+.homeH2{  
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
@@ -69,9 +69,9 @@ nav{
     width: 20px;
 }
 .aboutlinks{
+    width: inherit;
     display: flex;
-    justify-content: space-evenly;
-    width: 60%;
+    justify-content: space-between;
 }
 #AboutPage{
     display: flex;
@@ -83,8 +83,20 @@ nav{
     text-align: start;
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 10%;
     justify-content: space-evenly;
-    align-items: center;
     width: 50%;
     height: 30%;
+}
+.contant span{
+   border-bottom:  2px solid lime;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.media{
+    
 }
