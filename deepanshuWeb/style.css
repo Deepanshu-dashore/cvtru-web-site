@@ -92,6 +92,7 @@ nav{
     height: 60px;
     align-items: center;
     padding: 2px;
+    background-color: black;
 }
 .About-navlinks{
     display: flex;
@@ -117,6 +118,9 @@ nav{
     text-transform: capitalize ;
     color: white;
 }
+.logo{
+   padding-top: 10px;
+}
 #AboutPage{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homebg.jpg");
     background-size: cover;
@@ -126,3 +130,30 @@ nav{
     color: white;
     border-bottom: 2px lime solid;
 }
+.About-container{
+    height: 80vh;
+    width: 90%;
+}
+.About-container h6{
+   color: white;    
+}
+.About-h1{
+    color: white;
+}
+.About-container span{
+    color:  rgb(9, 237, 104);
+    height: 1px;
+    width: 100px;
+}
+.Aboutpic img{
+    height: 50vh;
+}
+.About-details .heding{
+ color: rgb(9, 237, 104);
+ text-transform: capitalize;
+}
+.About-details .myself{
+    color: rgba(255, 255, 255, 0.992);
+    font-size: 15px;
+   }
+   
