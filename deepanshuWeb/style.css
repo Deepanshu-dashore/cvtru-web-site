@@ -122,7 +122,7 @@ nav{
    padding-top: 10px;
 }
 #AboutPage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/homebg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/homebg.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -132,21 +132,26 @@ nav{
 }
 .About-container{
     height: 80vh;
+    background-color: black;
     width: 90%;
 }
 .About-container h6{
-   color: white;    
+   color: rgba(191, 187, 187, 0.522);
+   font-weight: 400;    
+   font-size: 15px;
 }
 .About-h1{
     color: white;
 }
-.About-container span{
+.coner span{
     color:  rgb(9, 237, 104);
-    height: 1px;
-    width: 100px;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
 }
 .Aboutpic img{
     height: 50vh;
+    width: 40vh;
 }
 .About-details .heding{
  color: rgb(9, 237, 104);
@@ -156,4 +161,6 @@ nav{
     color: rgba(255, 255, 255, 0.992);
     font-size: 15px;
    }
-   
+   .symbole{
+    color: rgb(9, 237, 104);
+   }
