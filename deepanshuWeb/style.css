@@ -124,7 +124,6 @@ nav{
 }
 #AboutPage{
     background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/homebg.jpg");
-    background-size: cover;
     height: 100vh;
 }
 .About-navlinks a:hover {
@@ -132,7 +131,7 @@ nav{
     border-bottom: 2px lime solid;
 }
 .About-container{
-    height: 80vh;
+    height: 200vh;
     background-color: black;
     width: 90%;
 }
