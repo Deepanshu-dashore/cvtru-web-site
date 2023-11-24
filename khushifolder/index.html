@@ -34,13 +34,20 @@
         font-family: 'Raleway';
         font-size: 16px;
     }
-    .name a{
+    .scroll{
         color: white;
-        margin-top: 40px;
+        font-weight: bold;
         font-size: 25px;
         animation: scroll 3s infinite ease-in-out;
     }
     @keyframes scroll{
+        0%{
+           margin-top: 0px;
+        }
+        100%{
+            margin-top: 20px;
+        }
+
     }
     .name{
         height: 300px;
@@ -96,11 +103,10 @@
         </div>
     </nav>
     <div class="name">
-        <div class="name">
             <h2>Khushi Yadav</h2>
             <h1> I'M A PASSIONATE WEB DEVELOPER FROM INDIA</h1>
-            <a href="#"><i class="bi bi-chevron-down"></i></a>
-        </div>
+            <br><br><!-- for space -->
+            <a href="#" class="scroll"><i class="bi bi-chevron-down"></i></a>
     </div>
    </div>
 </body>
