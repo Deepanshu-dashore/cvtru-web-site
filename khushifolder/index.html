@@ -39,16 +39,21 @@
         font-weight: bold;
         font-size: 25px;
         position: absolute;
-        animation: scroll 1s infinite ease-in-out;
+        animation: scroll 4s infinite ;
     }
     @keyframes scroll{
         0%{
            top: 400px;
         }
-        100%{
-            top: 420px;
+        50%{
+            top: 410px;
         }
-
+        75%{
+            top: 410px;
+        }
+        100%{
+           top: 400px;
+        }
     }
     .scroll:hover{
         color: gold;
