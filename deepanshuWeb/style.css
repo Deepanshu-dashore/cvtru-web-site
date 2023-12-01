@@ -212,19 +212,68 @@
     font-weight: 500;
    }
    .skill_Box{
-    width: 80%;
+    width: 100%;
     height: 80px;
-    background-color: aquamarine;
    }
    .bar{
-    background-color: gainsboro;
-    width: 90%;
+    background-color: rgb(51, 50, 50);
+    width: 98%;
     height: 10px;
-    border-radius: 20px;
    }
-   .progress{
+   .skill_Box h2{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    text-transform: uppercase;
+   }
+   .progress_html{
     width: 95%;
     height: 10px;
+    border-radius: 0%;
+    background-color: #18d26e;
+    animation: progress_html 5s  ease-in-out;
+   }
+   .progress_css{
+    width: 70%;
+    height: 10px;
+    border-radius: 0%;
     background-color: #18d26e;
    }
+   .progress_bootsrb{
+    width: 35%;
+    height: 10px;
+    border-radius: 0%;
+    background-color: #18d26e;
+   }
+   .progress_c{
+    width: 60%;
+    height: 10px;
+    border-radius: 0%;
+    background-color: #18d26e;
+   }
+   .progress_java{
+    width: 10%;
+    height: 10px;
+    border-radius: 0%;
+    background-color: #18d26e;
+   }
+   .progress_sql{
+    width: 60%;
+    height: 10px;
+    border-radius: 0%;
+    background-color: #18d26e;
+   }
+   @keyframes progress_html {
+    0%{
+        width: 0px;
+    }
+    100%
+    {
+        width: 95%;
+    }
+    
+   }
+
    
