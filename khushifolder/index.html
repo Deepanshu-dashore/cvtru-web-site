@@ -17,6 +17,9 @@
         margin: 0%;
         padding: 0%;
     }
+
+    /* home page style */
+
     .home-background{
         width: 100%;
         height: 100vh;
@@ -24,24 +27,70 @@
          background-repeat: no-repeat;
          background-size: cover;
     }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.527);
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        margin-top: 0%;
+    }
+    .navbar{
+        display: flex;
+        width: 800px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-family:'Raleway';
+        font-size: 13px;
+        font-weight: 200;
+        /* margin-right: 80px; */
+        padding: 6px;
+        text-align: center;
+        border-bottom: 2px solid rgba(255, 217, 0, 0);
+        border-radius: 15px 0px 15px 0px;
+    }
+    .navbar a:hover{
+        color: gold;
+        font-weight: 500;
+        border-bottom: 2px solid gold;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .name{
+        height: 620px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .name h2{
         color: white;
-        font-size: 65px;
+        font-size: 80px;
         font-family: 'satisfy';
         text-shadow: 2px 2px black;
         
+    }
+    .name span{
+        font-size: 75px;
+        color: gold; 
     }
     .name h1{
         color: rgba(255, 255, 255, 0.747);
         font-family: 'Raleway';
         font-size: 14px;
-        margin-top: 20px;
+        margin-top: 15px;
         word-spacing: 10px;
     }
     .scroll{
-        color: white;
+        color: rgba(255, 255, 255, 0.616);
         font-weight: bolder;
-        font-size: 25px;
+        font-size: 45px;
         position: absolute;
         animation: scroll 3s infinite ;
     }
@@ -50,7 +99,7 @@
            top: 400px;
         }
         50%{
-            top: 410px;
+            top: 415px;
         }
        
         100%{
@@ -62,54 +111,21 @@
         font-weight: bolder;
         text-shadow: 0px 0px 2px gold;
     }
-    .name{
-        height: 300px;
-        width: 100%;
-        margin-top: 50PX;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .name span{
-        font-size: 75px;
-        color: gold; 
-    }
-    .navbar{
-        display: flex;
-        width: 500px;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 80px;
+    
+    /* about page style */
 
-    }
-    .navbar a{
+    #aboutPage{
+        width: 100%;
+        height: 100vh;
         color: white;
-        text-decoration: none;
-        font-family:'Raleway';
-        font-size: 15px;
-        font-weight: 200;
-        padding: 6px;
-        margin-right: 80px;
-        border-bottom: 2px solid rgba(255, 217, 0, 0);
-        border-radius: 15px 0px 15px 0px;
-    }
-    nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.10);
-    }
-    .navbar a:hover{
-        color: gold;
-        font-weight: 500;
-        border-bottom: 2px solid gold;
-        border-radius: 15px 0px 15px 0px;
     }
 </style>
 </head>
 <body>
-   <div class="home-background">
+
+    <!---------------------- home page start -------------------->
+
+    <div class="home-background">
     <nav>
         <div class="navbar">
             <a href="#">HOME</a>
@@ -118,13 +134,20 @@
             <a href="#">PORTFOLIO</a>
             <a href="#">CONTACT</a>
         </div>
-    </nav>
+    </nav>  
     <div class="name">
             <h2><span>K</span>hushi <span>Y</span>adav</h2>
             <h1> I'M A PASSIONATE WEB DEVELOPER FROM INDIA</h1>
             <br><!-- for space -->
-            <a href="#" class="scroll"><b><i class="bi bi-chevron-down"></i></b></a>
+            <a href=" #aboutPage" class="scroll"><b><iconify-icon icon="bx:chevron-down"></iconify-icon></b></a>
     </div>
    </div>
+
+<!---------------------- about page start -------------------->
+
+<div id="aboutPage">
+
+</div>
+   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
