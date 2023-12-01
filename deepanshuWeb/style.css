@@ -93,6 +93,10 @@ nav{
     align-items: center;
     padding: 2px;
     background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: +5;
 }
 .About-navlinks{
     display: flex;
@@ -125,14 +129,20 @@ nav{
 #AboutPage{
     background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/homebg.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
 }
 .About-navlinks a:hover {
     color: white;
     border-bottom: 2px lime solid;
 }
 .About-container{
-    height: 200vh;
-    background-color: black;
+
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: relative;
+    top: 100px;
     width: 90%;
 }
 .About-container h6{
