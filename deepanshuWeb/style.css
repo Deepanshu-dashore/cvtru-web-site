@@ -5,34 +5,36 @@
 /* -------------------home page styling startes --------------------------- */
 
 #HomePage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("images/background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url("images/misurina-sunset.jpg");
     background-size: cover;
     height: 100vh;
 }
 .homelinks a:hover{
     color: white;
-    border-bottom: 2px lime solid;
+    border-bottom: 2px #18d26e solid;
    
 }
+
 .homeH1{
     text-decoration: none;
     color: white;
-    font-size: 43px;
-    font-family: "Oswald",sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
 }
 .homeH2{  
     text-decoration: none;
-    color: rgb(207, 207, 207);
+    color: rgba(255, 255, 255, 0.7);
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
 }
 .homelinks a{
     text-decoration: none;
     text-transform: capitalize;
-    font-family: sans-serif;
-    color: rgb(207, 207, 207);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     width: 20px;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
@@ -59,14 +61,14 @@
     height: 40%;
 }
 .contant span{
-   border-bottom:  2px solid lime;
+   border-bottom:  2px solid #18d26e;
    color: white;
    font-weight: bolder;
 }
 .media{
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 29%;
 }
 .media i{
     color: white;
@@ -79,35 +81,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.31);
+    background-color: rgba(31, 31, 31, 0.8);
     border-radius: 50%;
     text-align: center;
+}
+.media a:hover{
+    background-color: #18d26e;
 }
 
 /* -------------------About page styling startes --------------------------- */
 
-nav{
+.ABout-nav{
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 68px;
     align-items: center;
-    padding: 2px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
-    top: 0px;
     width: 100%;
+    top: 0;
     z-index: +5;
 }
 .About-navlinks{
     display: flex;
     justify-content: space-evenly;
     width: 40%;
+    margin-right: 25px;
 }
 .About-navlinks a{
     text-decoration: none;
     text-transform: capitalize;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(207, 207, 207);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 207, 207,0.7);
     font-weight: 300;
     font-size: 17px;
     font-family: sans-serif;
@@ -127,20 +132,22 @@ nav{
    padding-left:90px;
 }
 #AboutPage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/homebg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/background.jpg");
     height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     position: fixed;
+    top: 0;
 }
 .About-navlinks a:hover {
     color: white;
-    border-bottom: 2px lime solid;
+    border-bottom: 2px #18d26e solid;
 }
 .About-container{
 
     height: 1000px;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
     width: 90%;
@@ -157,18 +164,25 @@ nav{
     font-weight: bold;
 }
 .coner span{
-    color:  rgb(9, 237, 104);
+    color:  #18d26e;
     position: relative;
     bottom: 7px;
     letter-spacing: 0px;
     left: 5px;
 }
+.coner{
+    margin-top: 8px;
+}
 .Aboutpic img{
     height: 50vh;
-    width: 40vh;
+    width: 30vh;
+}
+.Aboutpic{
+    display: flex;
+    justify-content: center;
 }
 .About-details .heding{
- color: rgb(9, 237, 104);
+ color: #18d26e;
  text-transform: capitalize;
 }
 .About-details .myself{
@@ -177,7 +191,7 @@ nav{
     font-style: italic
    }
    .symbole{
-    color: rgb(9, 237, 104);
+    color: #18d26e;
    }
    .info-table h6{
     color: white;
@@ -196,5 +210,21 @@ nav{
      text-decoration: none;
      color: rgb(211, 208, 208);
     font-weight: 500;
+   }
+   .skill_Box{
+    width: 80%;
+    height: 80px;
+    background-color: aquamarine;
+   }
+   .bar{
+    background-color: gainsboro;
+    width: 90%;
+    height: 10px;
+    border-radius: 20px;
+   }
+   .progress{
+    width: 95%;
+    height: 10px;
+    background-color: #18d26e;
    }
    
