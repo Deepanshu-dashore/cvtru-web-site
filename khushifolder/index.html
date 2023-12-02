@@ -31,7 +31,7 @@
     .home-background{
         width: 100%;
         height: 100vh;
-         background-image: linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.589)), url(back.jpg); 
+         background-image: linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.589)), url(image/back.jpg); 
          background-repeat: no-repeat;
          background-size: cover;
     }
@@ -127,11 +127,11 @@
         color: white;
     }
     .about{
-        height: 330px;
+        height: 250px;
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         align-items:center;
     }
     .about h1{
@@ -152,6 +152,48 @@
         position: relative;
         top: -22px;
         font-family: 'Raleway';
+    }
+    .aboutmaterial{
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutpic{
+        height: 750px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutpic img{
+        width:75%;
+        height: 680px;
+    }
+    .aboutcontent{
+        height: 750px;
+        width: 60%;
+    }
+    .info{
+        height:325px;
+    }
+    .info1{
+        color: rgba(0, 0, 0);
+        font-family: 'Raleway';
+        font-weight: 900;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 18px;
+        height: 250px;
+        width: 50%;
+        margin-top: 30px;
+    }
+    .info1 span{
+        color: black;
+        font-weight: 500;
+    }
+    .progressbar{
+        height: 425px;
+        background-color: blueviolet;
     }
 </style>
 </head>
@@ -184,6 +226,26 @@
         <h2>ABOUT ME</h2>
         <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores</p>
     </div>
+    <div class="aboutmaterial">
+        <div class="aboutpic"><img src="image/me.jpg" alt=""></div>
+        <div class="aboutcontent">
+            <div class="info">
+                <div class="info1">
+                    <p>Name: &nbsp; <span>Khushi Yadav</span></p>
+                    <p>Mobile No: &nbsp; <span style="font-family: 'Times New Roman', Times, serif;">7879396219</span></p>
+                    <p>City: &nbsp; <span>Khandwa</span></p>
+                    <p>Country: &nbsp; <span>India</span></p>
+                </div>
+                <div class="info2"></div>
+            </div>
+            <div  class="progressbar">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <div class="bar4"></div>
+            </div>
+        </div>
+</div>
 </div>
    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
