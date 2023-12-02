@@ -144,9 +144,10 @@
     color: white;
     border-bottom: 2px #18d26e solid;
 }
+/* ----this is main box that is contend all about informainon of about page---  */
 .About-container{
 
-    height: 1000px;
+    height: 1250px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -215,12 +216,13 @@
     width: 100%;
     height: 80px;
    }
-   .bar{
+  
+   .bar{             /* this is progress bar outer bar deffination */
     background-color: rgb(51, 50, 50);
     width: 98%;
     height: 10px;
    }
-   .skill_Box h2{
+   .skill_Box h2{ /*this is h2 of hedding of progress bar and oersentages of progress bar */
     font-size: 15px;
     color: white;
     display: flex;
@@ -228,6 +230,7 @@
     justify-content: space-between;
     text-transform: uppercase;
    }
+   /* level of progress bar define below  for html,css,bootsrab,java,c,c++,mysql and sql*/
    .progress_html{
     width: 95%;
     height: 10px;
@@ -240,31 +243,39 @@
     height: 10px;
     border-radius: 0%;
     background-color: #18d26e;
+    animation: progress_css 5s  ease-in-out;
    }
    .progress_bootsrb{
     width: 35%;
     height: 10px;
     border-radius: 0%;
     background-color: #18d26e;
+    animation: progress_boot 5s  ease-in-out;
    }
    .progress_c{
     width: 60%;
     height: 10px;
     border-radius: 0%;
     background-color: #18d26e;
+    animation: progress_c 5s  ease-in-out;
    }
    .progress_java{
     width: 10%;
     height: 10px;
     border-radius: 0%;
-    background-color: #18d26e;
+    background-color: #18d26e; 
+    animation: progress_java 5s  ease-in-out;
+
    }
    .progress_sql{
     width: 60%;
     height: 10px;
     border-radius: 0%;
     background-color: #18d26e;
+    animation: progress_c 5s  ease-in-out;
    }
+   /* this is for progress bar animation keyframe */
+   /* ----------html animatin-------------- */
    @keyframes progress_html {
     0%{
         width: 0px;
@@ -273,7 +284,51 @@
     {
         width: 95%;
     }
-    
-   }
+    }
+    /* this is for progress bar animation keyframe */
+    /* ----------css animatin-------------- */
+   @keyframes progress_css {
+    0%{
+        width: 0px;
+    }
+    100%
+    {
+        width: 70%;
+    }
+    }
+    /* this is for progress bar animation keyframe */
+    /* ----------bootsrap animatin-------------- */
+   @keyframes progress_boot {
+    0%{
+        width: 0px;
+    }
+    100%
+    {
+        width: 35%;
+    }
+    }
+    /* this is for progress bar animation keyframe */
+    /* ----------c\c++ and mysql\sql  animatin-------------- */
+   @keyframes progress_c {
+    0%{
+        width: 0px;
+    }
+    100%
+    {
+        width: 60%;
+    }
+    }
+    /* this is for progress bar animation keyframe */
+    /* ----------java animatin-------------- */
+   @keyframes progress_java {
+    0%{
+        width: 0px;
+    }
+    100%
+    {
+        width: 10%;
+    }
+    }
+    /* anmiatins over */
 
    
