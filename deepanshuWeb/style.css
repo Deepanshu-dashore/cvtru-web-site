@@ -222,7 +222,7 @@
     width: 98%;
     height: 10px;
    }
-   .skill_Box h2{ /*this is h2 of hedding of progress bar and oersentages of progress bar */
+   .skill_Box h2{ /*this is h2 of hedding of progress bar and percentages of progress bar */
     font-size: 15px;
     color: white;
     display: flex;
