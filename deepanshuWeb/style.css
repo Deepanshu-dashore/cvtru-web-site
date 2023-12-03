@@ -151,7 +151,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
-    width: 90%;
+    width: 95%;
 }
 .About-container h6{
    color:  rgb(207, 207, 207);
@@ -185,11 +185,11 @@
 .About-details .heding{
  color: #18d26e;
  text-transform: capitalize;
+ padding-bottom: 10px;
 }
 .About-details .myself{
     color:  rgb(207, 207, 207);
     font-size: 15px;
-    font-style: italic
    }
    .symbole{
     color: #18d26e;
@@ -428,3 +428,83 @@
     top: -26px; 
     left: 50px;
    }
+   /* -----------resume page styling start---------------------- */
+   #ResumePage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.732)) , url("images/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+   }
+   /* ----this is main box that is contend all about informainon of about page---  */
+.resume-container{
+
+    height: 1520px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 100px;
+    width: 95%;
+}
+.cercle{
+    height: 15px;
+    width: 15px;
+    border-radius: 150px;
+    background-color: #18d26e;
+}
+.About-h1{
+    color: white;
+    font-weight: bold;
+}
+.r-coner span{
+    color:  #18d26e;
+    position: relative;
+    bottom: 7px;
+    letter-spacing: 0px;
+    left: 5px;
+}
+.resume-container h6{
+    color:  rgb(207, 207, 207);
+    font-weight: 400;    
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+ /* ---heding of rasume---- */
+ .hedding{
+    display: flex;
+    width: 200; 
+    align-items: center;
+    position: relative;
+    left: -20px;
+    top: -15px;
+ }
+ .hedding h4{
+    color: #18d26e;
+    margin-left: 15px;
+ }
+ .rasume-row{
+    margin-left: 20px;
+    margin-top: 40px;
+ }
+ .rsaume-colum1{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 200px;
+    width: 48%;
+    margin-left: 19px;
+ }
+ .rsaume-colum2{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 300px;
+    width: 48%;
+    margin-left: 19px;
+ }
+ .rsaume-colum5{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 300px;
+    width: 48%;
+    margin-left: 19px;
+    position: relative;
+    top: -35px;
+ }
