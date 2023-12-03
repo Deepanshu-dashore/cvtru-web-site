@@ -147,7 +147,7 @@
 /* ----this is main box that is contend all about informainon of about page---  */
 .About-container{
 
-    height: 1250px;
+    height: 1520px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -339,7 +339,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        font-size: 25px;
+        font-size: 22px;
         font-family: 'Rajdhani', sans-serif;;
         text-transform: uppercase;
         color: white;
@@ -370,4 +370,35 @@
    .icon_5{
     color: #18d26e;
     font-size: 40px;
+   }
+   .icon_6{
+    color: #ff3ae2;
+    font-size: 40px;
+   }
+
+   /*-------- sytiling of picture Section -------*/
+   .picSection{
+    width: 95%;
+    height: 280px;
+    align-items: center;
+    background-color: rgb(255,255,255,0.1);
+    overflow-y: scroll;
+   }
+   .picbox{
+    height: 260px;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    border: 1px solid black;
+   }
+   .picbox_row
+   {
+    margin-top: 12px;
+    margin-bottom: 15px;
+   }
+   .picbox img{
+    height: 260px;
+    width: 160px;
    }
