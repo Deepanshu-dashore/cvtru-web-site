@@ -125,7 +125,7 @@
 
     #aboutPage{
         width: 100%;
-        height: 100vh;
+        height: 1000px;
         color: white;
     }
     .about{
@@ -207,14 +207,12 @@
     .progressbar{
         height: 250px;
         margin-left: 42px;
-        /* background-color: aquamarine; */
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
     .bar{
-        /* background-color: rgb(241, 240, 255); */
         height: 50px; 
         width: 95%;
         color: black;
@@ -226,7 +224,6 @@
         background-color: rgba(128, 128, 128, 0.356);
         height: 12px;
         width: 100%;
-        /* border: 2px solid black; */
     }
     .level1{
         background-color: gold;
@@ -248,6 +245,60 @@
         height: 12px;
         width: 75%;
     }
+
+    /* contact page style */
+
+    #contactpage{
+        width: 100%;
+        height: 100vh;
+        color: white;
+    }
+    .contact{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items:center;
+    }
+    .contact h1{
+        color: rgba(0, 0, 0, 0.064);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .contact h2{
+        color: #3b434a;
+        font-family: 'Open Sans', sans-serif;
+        position: relative ;
+        top: -40px;
+        font-size: 35px;
+    }
+    .contactMe{
+        color: black;
+        position: relative;
+        top: -22px;
+        font-family: 'Raleway';
+    }
+    .contactcontent{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .address{
+        width: 44%;
+        height: 500px;
+        background-color: aquamarine;
+        margin-left: 50px;
+    }
+    .form{
+        width: 44%;
+        height: 500px;
+        background-color: blue;
+        margin-right: 50px;
+    }
 </style>
 </head>
 <body>
@@ -261,7 +312,7 @@
             <a href="#aboutPage">ABOUT</a>
             <a href="#">RESUME</a>
             <a href="#">PORTFOLIO</a>
-            <a href="#">CONTACT</a>
+            <a href="#contactpage">CONTACT</a>
         </div>
     </nav>  
     <div class="name">
@@ -280,7 +331,9 @@
         <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores</p>
     </div>
     <div class="aboutmaterial">
-        <div class="aboutpic"><img src="image/me.jpg" alt=""></div>
+        <div class="aboutpic">
+            <img src="image/mee.jpg" alt="">
+        </div>
         <div class="aboutcontent">
             <div class="info">
                 <div class="info1">
@@ -297,13 +350,43 @@
                 </div>
             </div>
             <div  class="progressbar">
-              <div class="bar"><p>HTML 80%</p><div class="full"><div class="level1"></div></div></div>
-              <div class="bar"><div class="full"><div class="level2"></div></div></div>
-              <div class="bar"><div class="full"><div class="level3"></div></div></div>
-              <div class="bar"><div class="full"><div class="level4"></div></div></div>
+              <div class="bar">
+                <p>HTML 80%</p>
+                <div class="full">
+                    <div class="level1"></div>
+                </div>
+            </div>
+              <div class="bar">
+                <div class="full">
+                    <div class="level2"></div>
+                </div>
+            </div>
+              <div class="bar">
+                <div class="full">
+                    <div class="level3"></div>
+                </div>
+            </div>
+              <div class="bar">
+                <div class="full">
+                    <div class="level4"></div>
+                </div>
+            </div>
             </div>
         </div>
+    </div>
 </div>
+
+<!---------------------- contact page start -------------------->
+<div id="contactpage">
+    <div class="contact">
+        <h1>CONTACT ME</h1>
+        <h2>CONTACT ME</h2>
+        <p class="contactMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores</p>
+    </div>
+    <div class="contactcontent">
+        <div class="address"></div>
+        <div class="form"></div>
+    </div>
 </div>
    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
