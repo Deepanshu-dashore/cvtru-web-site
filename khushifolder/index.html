@@ -172,7 +172,7 @@
     }
     .aboutcontent{
         height: 750px;
-        width: 60%;
+        width: 65%;
     }
     .info{
         height:250px;
@@ -207,6 +207,24 @@
     .progressbar{
         height: 500px;
         margin-left: 42px;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bar{
+        background-color: rgb(241, 240, 255);
+        height: 80px; 
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .full{
+        background-color: #ffb727;
+        height: 20px;
+        width: 100%;
     }
 </style>
 </head>
@@ -257,10 +275,10 @@
                 </div>
             </div>
             <div  class="progressbar">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-              <div class="bar4"></div>
+              <div class="bar"><div class="full"></div></div>
+              <div class="bar"><div class="full"></div></div>
+              <div class="bar"><div class="full"></div></div>
+              <div class="bar"><div class="full"></div></div>
             </div>
         </div>
 </div>
