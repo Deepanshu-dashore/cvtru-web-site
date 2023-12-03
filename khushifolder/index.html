@@ -205,31 +205,33 @@
         color: #ffb727;
     }
     .progressbar{
-        height: 500px;
+        height: 250px;
         margin-left: 42px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
     .bar{
-        background-color: rgb(241, 240, 255);
-        height: 80px; 
+        /* background-color: rgb(241, 240, 255); */
+        height: 50px; 
         width: 95%;
+        color: black;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .full{
-        background-color: #ffb727;
-        height: 20px;
+        background-color: rgba(128, 128, 128, 0.356);
+        height: 12px;
         width: 100%;
+        /* border: 2px solid black; */
     }
     .level1{
-        background-color: black;
-        height: 20px;
-        width: 70%;
+        background-color: gold;
+        height: 12px;
+        width: 80%;
     }
 </style>
 </head>
@@ -280,7 +282,7 @@
                 </div>
             </div>
             <div  class="progressbar">
-              <div class="bar"><div class="full"><div class="level1"></div></div></div>
+              <div class="bar"><p>HTML 80%</p><div class="full"><div class="level1"></div></div></div>
               <div class="bar"><div class="full"><div class="level2"></div></div></div>
               <div class="bar"><div class="full"><div class="level3"></div></div></div>
               <div class="bar"><div class="full"><div class="level4"></div></div></div>
