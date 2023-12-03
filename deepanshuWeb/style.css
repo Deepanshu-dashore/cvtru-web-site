@@ -393,15 +393,20 @@
     align-items: center;
     margin-left: 20px;
     border: 1px solid black;
+    overflow: hidden;
    }
    .picbox_row
    {
-    margin-top: 12px;
     margin-bottom: 15px;
+    margin-top: 12px;
    }
    .picbox img{
     height: 260px;
     width: 160px;
+    transition: 1.5s;
+   }
+   .picbox img:hover{
+    transform: scale(1.5);
    }
    .picbox .picTtile{
     font-size: 12px;
