@@ -125,7 +125,7 @@
 
     #aboutPage{
         width: 100%;
-        height: 1000px;
+        height: 900px;
         color: white;
     }
     .about{
@@ -363,6 +363,8 @@
         width: 44%;
         height: 410px;
         margin-right: 50px;
+        display: flex;
+        flex-direction: column;
     }
 </style>
 </head>
@@ -471,6 +473,10 @@
         </div>
         <div class="form">
             <input type="text" placeholder="Your Name" name="name" id="Name" required>
+            <input type="email" placeholder="Your Email" name="email" id="Email" required>
+            <input type="text" placeholder="Subject" name="subject" id="Subject" required>
+            <textarea name="message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="button" placeholder="Send Message ">
         </div>
     </div>
 </div>
