@@ -129,7 +129,7 @@
         color: white;
     }
     .about{
-        height: 250px;
+        height: 180px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -149,18 +149,12 @@
         top: -40px;
         font-size: 35px;
     }
-    .aboutMe{
-        color: black;
-        position: relative;
-        top: -22px;
-        font-family: 'Raleway';
-    }
     .aboutmaterial{
         display: flex;
         flex-direction: row;
     }
     .aboutpic{
-        height: 750px;
+        height: 680px;
         width: 35%;
         display: flex;
         justify-content: right;
@@ -173,6 +167,34 @@
     .aboutcontent{
         height: 750px;
         width: 65%;
+    }
+    .abouthedding h4{
+        color: #45494d;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'Raleway';
+        display: flex;
+        width: 400px;
+        border-bottom: #ffb727 double 4.5px;
+        padding-bottom: 5px;
+    }
+    .abouthedding h4 div{
+        border-bottom: #ffb727 solid 2.5px;
+        color: #ffb727;
+        margin-left: 3px;
+        width: 90px;
+        letter-spacing: 0px;
+        height: 10px;
+        font-weight: bolder;
+    } 
+    .abouthedding{
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .aboutMe{
+        color: black;
+        font-family: 'Raleway';
+        margin-top: 10px;
     }
     .info{
         height:250px;
@@ -205,7 +227,7 @@
     }
     .progressbar{
         height: 250px;
-        margin-left: 42px;
+        margin-left: 35px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -371,13 +393,18 @@
     <div class="about">
         <h1>ABOUT ME</h1>
         <h2>ABOUT ME</h2>
-        <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores</p>
+        <!-- <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores</p> -->
     </div>
     <div class="aboutmaterial">
         <div class="aboutpic">
             <img src="image/me.jpg" alt="">
         </div>
         <div class="aboutcontent">
+            <div class="abouthedding">
+            <h4>about <div></div></h4>
+            <p class="aboutMe">Welcome to my website! My name is Khushi Yadav, and I'm currently pursuing my BCA at CVRU. I'm passionate about all things related to computer science and technology. Join me on this exciting journey as I explore the world of programming and database management systems. Let's dive in together and discover the endless possibilities!
+            </p>
+            </div>
             <div class="info">
                 <div class="info1">
                     <p><i class="fa-solid fa-chevron-right"></i>&nbsp; Name : &nbsp; <span>Khushi Yadav</span></p>
@@ -392,6 +419,9 @@
                     <p><i class="fa-solid fa-chevron-right"></i>&nbsp; age : &nbsp; <span>17</span></p>
                 </div>
             </div>
+            <div class="abouthedding">
+                <h4>skills <div></div></h4>
+                </div>
             <div  class="progressbar">
               <div class="bar">
                 <p>HTML &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;80%</p>
