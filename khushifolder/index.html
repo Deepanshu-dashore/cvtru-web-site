@@ -324,7 +324,7 @@
         width: 42.5%;
         height: 410px;
         margin-left: 65px;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -334,19 +334,57 @@
     .social{
         width: 100%;
         height: 220px;
-        background-color: aquamarine;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
         align-items: center;
     }
     .icon1{
         height: 50px;
         width: 50px;
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: bolder;
         color: #ffb727;
         border-radius: 50%;
-        background-color: #ffb7278a;
+        background-color: #fff6e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon_box i{
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(80, 80, 80);
+        border-radius: 50%;
+        border: 2px solid rgba(128, 128, 128, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon_box i:hover{
+        background-color: #ffb727;
+        color: white;
+    }
+    .icon_box{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .icon_h2{
+        height: 30px;
+        width: 100%;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 15px;
+        border-radius: 50%;
     }
     .personal{
         width: 100%;
@@ -374,6 +412,7 @@
         justify-content: space-around;
         background-color: whitesmoke;
         border-radius: 10px;
+        box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
     }
     .row1{
         display: flex;
@@ -386,6 +425,7 @@
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
+        border: #4d52574e 1px solid;
     }
     #Email{
         height: 40px;
@@ -394,6 +434,7 @@
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
+        border: #4d52574e 1px solid;
     }
     #Subject{
         height: 40px;
@@ -403,6 +444,7 @@
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
+        border: #4d52574e 1px solid;
     }
     #Message{
         width: 567.5px;
@@ -411,6 +453,7 @@
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
+        border: #4d52574e 1px solid;
     }
     #Button{
         height: 40px;
@@ -418,11 +461,20 @@
         margin-top: 15px;
         margin-left: 236.75px;
         font-family: 'Raleway';
-        color: black;
+        color: white;
+        font-weight: 500;
         background-color: orange;
         border:none;
         font-size: 16px;
         border-radius: 8px;
+    }
+    #Message::placeholder,#Subject::placeholder,#Email::placeholder,#Name::placeholder{
+       color: gray;
+       padding-left: 15px;
+       padding-top: 12px;
+       font-weight: 500;
+       font-size: 14px;
+       font-family: 'Raleway';
     }
 </style>
 </head>
@@ -523,6 +575,8 @@
         <div class="address">
             <div class="social">
                 <div class="icon1"><i class="bi bi-share"></i></div>
+                <div class="icon_h2"><h2>Social Profiles</h2></div> 
+                <div class="icon_box"><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i></div>
             </div>
             <div class="personal">
                 <div class="email"></div>
