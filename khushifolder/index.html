@@ -376,32 +376,66 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    .icon_h2{
+    .icon_h3{
         height: 30px;
         width: 100%;
-        font-size: 25px;
-        color: gray;
+        color: #777777;
         text-align: center;
         font-family: 'Raleway';
         font-size: 15px;
         border-radius: 50%;
     }
+    .icon_h3 h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
     .personal{
         width: 100%;
         height: 165px;
-        background-color: limegreen;
         display: flex;
         justify-content: space-between;
+    }
+    .icon_p{
+        height: 30px;
+        width: 100%;
+        /* font-size: 15px; */
+        color:black;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 15px;
+        border-radius: 50%;
+    }
+    .call_p{
+        height: 30px;
+        width: 100%;
+        /* font-size: 15px; */
+        color:black;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 15px;
+        border-radius: 50%;
     }
     .email{
         width: 48.2%;
         height: 165px;
-        background-color: #ffb727;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
+        align-items: center;
     }
     .call{
         width: 48.2%;
         height: 165px;
-        background-color: #ffb727;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
+        align-items: center;
     }
     .form{
         width: 42.5%;
@@ -411,7 +445,7 @@
         flex-direction: column;
         justify-content: space-around;
         background-color: rgb(255, 255, 255);
-        border-radius: 3px;
+        border-radius: 10px;
         box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
     }
     .row1{
@@ -575,12 +609,20 @@
         <div class="address">
             <div class="social">
                 <div class="icon1"><iconify-icon icon="bx:share-alt"></iconify-icon></div>
-                <div class="icon_h2"><h2>Social Profiles</h2></div> 
+                <div class="icon_h3"><h3>Social Profiles</h3></div> 
                 <div class="icon_box"><iconify-icon icon="mdi:twitter"></iconify-icon><iconify-icon icon="ic:baseline-facebook"></iconify-icon><iconify-icon icon="mdi:instagram"></iconify-icon><iconify-icon icon="ic:baseline-snapchat"></iconify-icon><iconify-icon icon="mdi:linkedin"></iconify-icon></div>
             </div>
             <div class="personal">
-                <div class="email"></div>
-                <div class="call"></div>
+                <div class="email">
+                    <div class="icon1"><iconify-icon icon="ic:outline-email"></iconify-icon></div>
+                    <div class="icon_h3"><h3>Email Me</h3></div> 
+                    <div class="icon_p"><p>contact@example.com</p></div>
+                </div>
+                <div class="call">
+                    <div class="icon1"><iconify-icon icon="ph:phone-call-bold"></iconify-icon></div>
+                    <div class="icon_h3"><h3>Call Me</h3></div> 
+                    <div class="call_p"><p>+91 65657 76756</p></div>
+                </div>
             </div>
         </div>
         <div class="form">
