@@ -338,7 +338,7 @@
         width: 30%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: left;
         font-size: 22px;
         font-family: 'Rajdhani', sans-serif;;
         text-transform: uppercase;
@@ -354,26 +354,38 @@
    .icon_1{
     color: rgb(255, 20, 169);
     font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
    }
    .icon_2{
     color: #ffbf00;
     font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
    }
    .icon_3{
     color: rgb(20, 149, 255);
     font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
    }
    .icon_4{
     color: rgb(130, 20, 255);
     font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
    }
    .icon_5{
     color: #18d26e;
     font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
    }
    .icon_6{
     color: #ff3ae2;
     font-size: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
    }
 
    /*-------- sytiling of picture Section -------*/
@@ -445,7 +457,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
-    width: 95%;
+    width: 98%;
 }
 .cercle{
     height: 15px;
@@ -477,12 +489,14 @@
     width: 200; 
     align-items: center;
     position: relative;
-    left: -20px;
+    left: -9px;
     top: -15px;
  }
- .hedding h4{
+ .hedding h5{
     color: #18d26e;
     margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 19.5px;
  }
  .rasume-row{
     margin-left: 20px;
@@ -490,21 +504,51 @@
  }
  .rsaume-colum1{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 200px;
-    width: 48%;
-    margin-left: 19px;
+    height: 205px;
+    margin-left: 3px;
+ }
+ .rasume-row h4{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+ }
+ .rasume_p{
+    color: white;
+    font-style: italic;
+    margin-left: 20px;
+ }
+ .raume_list{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
  }
  .rsaume-colum2{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 300px;
-    width: 48%;
-    margin-left: 19px;
+    height: 173px;
+    margin-left: 3px;
  }
- .rsaume-colum5{
+ .rsaume-colum2 h6{
+    background-color: rgb(255,255,255,0.2);
+    width: 120px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 1px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+ }
+ .rasume_p2{
+    color: white;
+    text-transform: capitalize;
+    margin-left: 20px;
+ }
+ .rsaume-colum3{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 300px;
-    width: 48%;
-    margin-left: 19px;
-    position: relative;
-    top: -35px;
+    height: 110px;
+    margin-left: 3px;
+ }
+ .rsaume-colum4{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 80px;
+    margin-left: 3px;
  }
