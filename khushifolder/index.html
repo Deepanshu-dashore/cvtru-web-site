@@ -324,7 +324,6 @@
         width: 42.5%;
         height: 410px;
         margin-left: 65px;
-        /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -337,15 +336,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: whitesmoke;
+        background-color: white;
         border-radius: 10px;
         box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
         align-items: center;
     }
     .icon1{
-        height: 50px;
-        width: 50px;
-        font-size: 20px;
+        height: 55px;
+        width: 55px;
+        font-size: 24px;
         font-weight: bolder;
         color: #ffb727;
         border-radius: 50%;
@@ -353,20 +352,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
-    .icon_box i{
+    .icon_box iconify-icon{
         height: 45px;
         width: 45px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bolder;
-        color: rgb(80, 80, 80);
+        color: rgba(80, 80, 80, 0.897);
         border-radius: 50%;
         border: 2px solid rgba(128, 128, 128, 0.2);
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .icon_box i:hover{
+    .icon_box iconify-icon:hover{
         background-color: #ffb727;
         color: white;
     }
@@ -410,19 +410,19 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-color: whitesmoke;
-        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;
         box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
     }
     .row1{
         display: flex;
         justify-content: space-between;
         width: 567.5px;
-        margin-left: 15.3px;
+        margin-left: 18px;
     }
     #Name{
         height: 40px;
-        width: 272px ;
+        width: 273px ;
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
@@ -430,7 +430,7 @@
     }
     #Email{
         height: 40px;
-        width: 272px;
+        width: 273px;
         font-family: 'Raleway';
         color: black;
         font-size: 16px;
@@ -439,7 +439,7 @@
     #Subject{
         height: 40px;
         width: 567.5px;
-        margin-left: 15.3px;
+        margin-left: 18px;
         margin-top: 15px;
         font-family: 'Raleway';
         color: black;
@@ -448,7 +448,7 @@
     }
     #Message{
         width: 567.5px;
-        margin-left: 15.3px;
+        margin-left: 18px;
         margin-top: 15px;
         font-family: 'Raleway';
         color: black;
@@ -456,14 +456,14 @@
         border: #4d52574e 1px solid;
     }
     #Button{
-        height: 40px;
-        width: 150px ;
+        height: 43px;
+        width: 160px ;
         margin-top: 15px;
-        margin-left: 236.75px;
+        margin-left: 216.75px;
         font-family: 'Raleway';
         color: white;
         font-weight: 500;
-        background-color: orange;
+        background-color: #ffb727;
         border:none;
         font-size: 16px;
         border-radius: 8px;
@@ -574,9 +574,9 @@
     <div class="contactcontent">
         <div class="address">
             <div class="social">
-                <div class="icon1"><i class="bi bi-share"></i></div>
+                <div class="icon1"><iconify-icon icon="bx:share-alt"></iconify-icon></div>
                 <div class="icon_h2"><h2>Social Profiles</h2></div> 
-                <div class="icon_box"><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i><i class="bi bi-share"></i></div>
+                <div class="icon_box"><iconify-icon icon="mdi:twitter"></iconify-icon><iconify-icon icon="ic:baseline-facebook"></iconify-icon><iconify-icon icon="mdi:instagram"></iconify-icon><iconify-icon icon="ic:baseline-snapchat"></iconify-icon><iconify-icon icon="mdi:linkedin"></iconify-icon></div>
             </div>
             <div class="personal">
                 <div class="email"></div>
