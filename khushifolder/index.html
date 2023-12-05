@@ -319,6 +319,7 @@
         align-items: center;
         position: relative;
         top: -30px;
+        z-index: -2;
     }
     .address{
         width: 42.5%;
@@ -514,7 +515,18 @@
     /* ---------map styling------- */
     #map{
         width: 100%;
-        height: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .iframebox {
+        width: 88%;
+        height: 270px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 40px 2px rgba(128, 128, 128, 0.4);
     }
 </style>
 </head>
@@ -648,9 +660,7 @@
         </div>
     </div>
     <div id="map">
-        <div class="iframebox">
-    
-        </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.476912367625!2d76.30791827512824!3d21.824019380031817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd81b76e7f374b7%3A0x52938d10f65a37e2!2sShri%20Ram%20Agro%20Industries!5e1!3m2!1sen!2sin!4v1701783419901!5m2!1sen!2sin" class="iframebox" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 
