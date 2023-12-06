@@ -26,6 +26,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Lora&family=Oswald:wght@200&family=Raleway&family=Rubik&family=Satisfy&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
 <style>
     *{
         margin: 0%; 
@@ -324,11 +326,11 @@
 
     #resumepage{
         width: 100%;
-        height: 100vh;
+        height: 1100px;
         color: white;
     }
     .resume{
-        height: 230px;
+        height: 200px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -348,6 +350,91 @@
         top: -40px;
         font-size: 35px;
     }
+    .cercle{
+    height: 15px;
+    width: 15px;
+    border-radius: 150px;
+    background-color: #444444;
+}
+    .hedding{
+    display: flex;
+    width: 200; 
+    align-items: center;
+    position: relative;
+    left: -9px;
+    top: -15px;
+ }
+ .hedding h5{
+    color: #ffb727;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 19.5px;
+ }
+ .rasume-row{
+    margin-left: 20px;
+    margin-top: 40px;
+ }
+ .rsaume-colum1{
+    border-left: 2px solid #444444;
+    height: 205px;
+    margin-left: 3px;
+ }
+ .rasume-row h4{
+    color: #3b434a;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+ }
+ .rasume_p{
+    color: #444444;
+    font-style: italic;
+    margin-left: 20px;
+ }
+ .raume_list{
+    color: #444444;
+    text-transform: capitalize;
+    font-weight: 300;
+ }
+ .rsaume-colum2{
+    border-left: 2px solid #444444;
+    height: 173px;
+    margin-left: 3px;
+ }
+ .rsaume-colum2 h6{
+    background-color: #eef0f2;
+    color: #444444;
+    width: 120px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 1px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+ }
+ .rasume_p2{
+    color: #444444;
+    text-transform: capitalize;
+    margin-left: 20px;
+ }
+ .rsaume-colum3{
+    border-left: 2px solid #444444;
+    height: 110px;
+    margin-left: 3px;
+ }
+ .rsaume-colum4{
+    border-left: 2px solid #444444;
+    height: 80px;
+    margin-left: 3px;
+ }
+ .rsaume-colum5{
+    border-left: 2px solid #444444;
+    height: 80px;
+    margin-left: 3px;
+ }
+ .rsaume-colum6{
+    border-left: 2px solid #444444;
+    height: 120px;
+    margin-left: 3px;
+ }
 
     /* contact page style */
 
@@ -694,6 +781,77 @@
         <h1>MY RESUME</h1>
         <h2>MY RESUME</h2>
     </div>
+    <div class="row rasume-row">
+        <!-- ---------colomun 1 stert------------ -->
+           <div class="col-6 ">
+            <h4 class="mx-1 mb-4">Sumary</h4>
+             <div class="rsaume-colum1">
+              <div class="hedding"><div class="cercle"></div><h5>Deepanshu dahore</h5></div>
+              <p class="rasume_p"> I'm Deepanshu Dashore, a dedicated 18-year-old navigating the realm of Bachelor of Computer Application studies. Originating from the vibrant city of Khandwa, Madhya Pradesh.
+              </p>
+              <ul class="raume_list">
+                <li>9617015039</li>
+                <li>deepanshudashore48@gmail.com</li>
+                <li>ghanta ghar chowk khandwa m.P.</li>
+              </ul>
+             </div>
+             <!-- ------education------ -->
+             <h4 class="mx-1 my-4">Education</h4>
+             <div class="rsaume-colum2">
+              <div class="hedding"><div class="cercle"></div><h5>bachelor of computer application</h5></div>
+              <h6>2022-2025</h6>
+              <p class="rasume_p">DR. C.V. Raman Universtiy Khandwa</p>
+              <p class="rasume_p2">I am currentys study bachelor of computer application</p>
+             </div>
+             <div class="rsaume-colum2">
+              <div class="hedding"><div class="cercle"></div><h5>12TH</h5></div>
+              <h6>2021-2022</h6>
+              <p class="rasume_p">Saraswati Vidhya Mandir Khandwa</p>
+              <p class="rasume_p2">I am compating my 12th form M.P. bord</p>
+             </div>
+             <div class="rsaume-colum2">
+              <div class="hedding"><div class="cercle"></div><h5>10TH</h5></div>
+              <h6>2019-2020</h6>
+              <p class="rasume_p">Saraswati Vidhya Mandir Khandwa</p>
+              <p class="rasume_p2">I am compating my 10th form M.P. bord</p>
+             </div>
+           </div><!--this coloumn-1  div closing-->
+           
+           <!-- ---------colomun 2 stert------------ -->
+           <div class="col-6">
+            <h4 class="mx-1 mb-4">language</h4>
+            <div class="rsaume-colum3">
+             <div class="hedding"><div class="cercle"></div><h5>language</h5></div>
+             <p class="rasume_p">hindi</p>
+             <p class="rasume_p">english</p>
+            </div>
+
+            <h4 class="mx-1 my-4">work experince</h4>
+            <div class="rsaume-colum4">
+             <div class="hedding"><div class="cercle"></div><h5>fresher</h5></div>
+             <p class="rasume_p">fresher</p>
+            </div>
+
+            <!-- --------certificeds------- -->
+            <h4 class="mx-1 my-4">Certificates</h4>
+             <div class="rsaume-colum5">
+              <div class="hedding"><div class="cercle"></div><h5>certified in basic computing</h5></div>
+              <p class="rasume_p">Digital Computing</p>
+            </div>
+            <div class="rsaume-colum5 mt-2">
+              <div class="hedding"><div class="cercle"></div><h5>certified in HTML AND CSS</h5></div>
+              <p class="rasume_p">Digital Computing</p>
+            </div>
+            <!-- extra calicuram -->
+            <h4 class="mx-1 my-4">Extracurricular activities</h4>
+            <div class="rsaume-colum6">
+             <div class="hedding"><div class="cercle"></div><h5>certified in basic computing</h5></div>
+             <p class="rasume_p">Scence model</p>
+             <p class="rasume_p">skitt play</p>
+           </div>
+           </div><!--this coloumn-2  div closing-->
+      </div>
+
 </div>
 
 <!---------------------- contact page start -------------------->
@@ -745,5 +903,6 @@
 </div>
 
    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
