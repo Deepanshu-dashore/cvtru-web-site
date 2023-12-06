@@ -13,7 +13,7 @@
       margin: 0px;
       padding: 0px;
     }
-
+  
     nav {
       color: antiquewhite;
       background-color: #040b14;
@@ -200,29 +200,121 @@
     color:navy;
   }
   .box{
-    height: 100px;
-    width: 750px;
+    height: 400px;
+    width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: aqua;
-    margin-left: 300px;
+   
+    margin-left: 280px;
+ 
     flex-direction: column;
+    
   }
   .full{
     height: 10px;
-    background-color: #8a8989;
+    background-color: #8a898949;
     width: 95%;
   }
-  .level{
+  .level1{
     height: 10px;
-    width: 10%;
-    background-color: navy;
+    width: 80%;
+    background-color: rgb(7, 7, 245);
+    animation: lev1 5s ;
+     }
+ 
+  .level2{
+    height: 10px;
+    width: 50%;
+    background-color: rgb(7, 7, 245);
+    animation: lev2 5s ;
+    
   }
+  .level4{
+    height: 10px;
+    width: 70%;
+    background-color: rgb(7, 7, 245);
+    animation: lev4 5s ;
+  }
+  .level5{
+    height: 10px;
+    width: 50%;
+    background-color:  rgb(7, 7, 245);
+    animation: lev5 5s ;
+
+  }
+  .level6{
+    height: 10px;
+    width: 65%;
+    background-color: rgb(7, 7, 245);
+    animation: lev6 5s ;
+  }
+  
+
   .per{
+    width: 95%;
+
     display:flex;
     justify-content: space-between;
+    margin-bottom: 10px;
     
+  }
+  @keyframes lev1{
+       0%{
+        width: 0%;
+         }
+       100%{
+           width: 80%;
+          }
+
+  }
+  @keyframes lev2{
+       0%{
+        width: 0%;
+         }
+       100%{
+           width: 50%;
+          }
+
+  }
+  @keyframes lev4{
+       0%{
+        width: 0%;
+         }
+       100%{
+           width: 70%;
+          }
+
+  }
+  @keyframes lev5{
+       0%{
+        width: 0%;
+         }
+       100%{
+           width: 65%;
+          }
+  }
+  @keyframes lev6{
+       0%{
+        width: 0%;
+         }
+       100%{
+           width: 80%;
+          }
+
+  }
+  .resum{
+    height: 800px;
+    width: 100%;
+    color: rgb(17, 3, 3);
+  }
+  .resum h1{
+         color:navy;
+         /* text-decoration: underline; */
+         margin-left: 300px;
+         margin-top: 90px;
+         padding: 20px;
+         border-bottom: 2px solid navy;
   }
   </style>
 </head>
@@ -245,10 +337,10 @@
       </div>
       <div class="navlinks">
         <a href="#"><i class="bi bi-house"></i> &nbsp; HOME</a>
-        <a href=""><i class="bi bi-person"></i> &nbsp; ABOUT</a>
-        <a href="#"><i class="bi bi-file-earmark-person"></i> &nbsp; RESUME</a>
-        <a href="#"><i class="bi bi-person-lines-fill"></i> &nbsp; CONTACT</a>
+        <a href="#myab"><i class="bi bi-person"></i> &nbsp; ABOUT</a>
+        <a href="#myres"><i class="bi bi-file-earmark-person"></i> &nbsp; RESUME</a>
         <a href="#"><i class="bi bi-people-fill"></i> &nbsp; PORTFOLIO</a>
+        <a href="#"><i class="bi bi-person-lines-fill"></i> &nbsp; CONTACT</a>
       </div>
 
     </nav>
@@ -299,17 +391,42 @@
       <h1>skills</h1>
       <div class="box">
         <div class="per">
-          <h4>HTML</h4>   <h4>90%</h4> 
+          <h4>HTML</h4>   <h4>80%</h4> 
         </div>
         <div class="full">
-          <div class="level"></div>
+          <div class="level1"></div>
         </div>
-      </div>
+        <div class="per">
+          <h4>CSS</h4>   <h4>50%</h4> 
+        </div>
+        <div class="full">
+          <div class="level2"></div>
+        </div>
+        <div class="per">
+          <h4>C/C++</h4>   <h4>70%</h4> 
+        </div>
+        <div class="full">
+          <div class="level4"></div>
+        </div>
+        <div class="per">
+          <h4>JAVA</h4>   <h4>50%</h4> 
+        </div>
+        <div class="full">
+          <div class="level5"></div>
+        </div>
+        <div class="per">
+          <h4>SQL/MY SQL</h4>   <h4>65%</h4> 
+        </div>
+        <div class="full">
+          <div class="level6"></div>
+        </div>
+      </div><!--BOX END FOR SKILL-->
     </div>  
-
-      
-    </div>
-    
+ </div>
+      </div><br> <!-- about close-->
+  <!--resume start-->
+  <div class="resum" id="myres">
+    <h1>Resume</h1>
   </div>
 
 </body>

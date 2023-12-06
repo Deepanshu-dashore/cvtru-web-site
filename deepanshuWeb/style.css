@@ -453,7 +453,7 @@
    /* ----this is main box that is contend all about informainon of about page---  */
 .resume-container{
 
-    height: 1520px;
+    height: 1100px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -555,5 +555,10 @@
  .rsaume-colum5{
     border-left: 2px solid rgb(255,255,255,0.3);
     height: 80px;
+    margin-left: 3px;
+ }
+ .rsaume-colum6{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 120px;
     margin-left: 3px;
  }
