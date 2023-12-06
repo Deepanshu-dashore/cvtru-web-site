@@ -9,6 +9,7 @@
     background-size: cover;
     height: 100vh;
 }
+
 .homelinks a:hover{
     color: white;
     border-bottom: 2px #18d26e solid;
