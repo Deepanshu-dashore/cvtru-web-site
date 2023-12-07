@@ -454,7 +454,7 @@
    /* ----this is main box that is contend all about informainon of about page---  */
 .resume-container{
 
-    height: 1100px;
+    height: 1500px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -505,7 +505,7 @@
  }
  .rsaume-colum1{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 205px;
+    height: 245px;
     margin-left: 3px;
  }
  .rasume-row h4{
@@ -524,12 +524,22 @@
     text-transform: capitalize;
     font-weight: 300;
  }
+ .raume_list_extraVita{
+    color: white;
+    text-transform: capitalize;
+    font-style: italic;
+ }
  .rsaume-colum2{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 173px;
+    height: 183px;
     margin-left: 3px;
  }
- .rsaume-colum2 h6{
+ .rsaume-colum2_bachalar{
+    border-left: 2px solid rgb(255,255,255,0.3);
+    height: 210px;
+    margin-left: 3px;
+ }
+ .rsaume-colum2 h6,.rsaume-colum2_bachalar h6{
     background-color: rgb(255,255,255,0.2);
     width: 120px;
     text-align: center;
@@ -560,6 +570,6 @@
  }
  .rsaume-colum6{
     border-left: 2px solid rgb(255,255,255,0.3);
-    height: 120px;
+    height: 255px;
     margin-left: 3px;
  }
