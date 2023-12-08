@@ -579,7 +579,7 @@
  .contect-container{
  
      height: 1130px;
-     background-color: rgba(0, 0, 0, 0.7);
+     background-color: rgba(0, 0, 0, 0.8);
      position: relative;
      top: 100px;
      margin-bottom: 50px;
@@ -603,5 +603,101 @@
     background-color: rgb(255,255,255,0.1);
     height: 84%;
     width: 47.5%;
-
+   display: flex;
+   align-items: center;
+ }
+ .contect_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+ }
+ .contect_block h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+ }
+ .contect_block p,a{
+    font-size: 14px;
+    color: rgb(237, 235, 235);
+    text-decoration: none;
+ }
+ .i_box{
+    height: 100%;
+    width: 16.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .i_box a{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 65px;
+    width: 65px;
+    font-size: 24px;
+    color: #18d26e;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .con_p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(237, 235, 235);
+ }
+ .con_p2{
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 2px;
+    color: rgb(237, 235, 235);
+ }
+ .from{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 400px;
+    width:  96%;
+ }
+ .form_row{
+    align-items: center;
+    justify-content: space-evenly;
+    width: 102%;
+    height: 85px;
+    
+ }
+ .form_row .col-6 input{
+    width: 100%;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+ }
+ .Subject input{
+    width: 100%;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+ }
+ .Message textarea{
+  width: 100%;
+  margin: 20px 0px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+ }
+ .button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .button button{
+    background-color: #18d26e;
+    color: white;
+    width: 170px;
+    height: 44px;
+ }
+ input::placeholder,textarea::placeholder{
+    padding-left: 11px;
+    text-transform: capitalize;
+    font-weight: 400;
  }
