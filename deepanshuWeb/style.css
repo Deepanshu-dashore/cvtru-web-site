@@ -454,10 +454,11 @@
    /* ----this is main box that is contend all about informainon of about page---  */
 .resume-container{
 
-    height: 1500px;
+    height: 1130px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
+    margin-bottom: 50px;
     width: 98%;
 }
 .cercle{
@@ -572,4 +573,35 @@
     border-left: 2px solid rgb(255,255,255,0.3);
     height: 255px;
     margin-left: 3px;
+ }
+ /* ---------contect page styling-------------- */
+ /* ----this is main box that is contend all about informainon of about page---  */
+ .contect-container{
+ 
+     height: 1130px;
+     background-color: rgba(0, 0, 0, 0.7);
+     position: relative;
+     top: 100px;
+     margin-bottom: 50px;
+     width: 98%;
+ }
+ .contect-container h6{
+    color:  rgb(207, 207, 207);
+    font-weight: 400;    
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+ .contect_row{
+    height: 128px;
+    width: 99%;
+    margin-left: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .con_col{
+    background-color: rgb(255,255,255,0.1);
+    height: 84%;
+    width: 47.5%;
+
  }
