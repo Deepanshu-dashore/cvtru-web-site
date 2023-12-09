@@ -578,11 +578,11 @@
  /* ----this is main box that is contend all about informainon of about page---  */
  .contect-container{
  
-     height: 1130px;
+     height: 1000px;
      background-color: rgba(0, 0, 0, 0.8);
      position: relative;
      top: 100px;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
      width: 98%;
  }
  .contect-container h6{
@@ -613,10 +613,9 @@
     height: 50%;
  }
  .contect_block h4{
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
-    font-family: 'Raleway', sans-serif;
-    font-size: 21px;
-    font-weight: 400;
+    font-weight: 700;
  }
  .contect_block p,a{
     font-size: 14px;
@@ -634,13 +633,16 @@
     background-color: rgba(255, 255, 255, 0.1);
     height: 65px;
     width: 65px;
-    font-size: 24px;
+    font-size: 22px;
     color: #18d26e;
     text-align: center;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+ }
+ .i_box a i{
+    font-weight: 900;
  }
  .con_p{
     letter-spacing: 1px;
@@ -649,9 +651,11 @@
  }
  .con_p2{
     letter-spacing: 3px;
-    font-size: 25px;
     margin-top: 2px;
     color: rgb(237, 235, 235);
+ }
+ .con_p2 i{
+    font-size: 18px;
  }
  .from{
     background-color: rgba(255, 255, 255, 0.1);
@@ -700,4 +704,70 @@
     padding-left: 11px;
     text-transform: capitalize;
     font-weight: 400;
+ }
+ /* copy styiling contect page 2 */
+ .con_colCopy{
+    background-color: rgb(255,255,255,0.1);
+    height: 83px;
+    width: 100%;
+    margin-top: 15px;
+   display: flex;
+   align-items: center;
+ }
+ .contect_rowCopy{
+    height: 400px;
+    width: 99%;
+    margin-left: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .contect_rowCopy .col-6{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+ .i_boxCopy a{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    color: #18d26e;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .i_boxCopy{
+    height: 100%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+ }
+
+ .i_boxCopy a i{
+    font-weight: 900;
+ }
+ .contect_blockCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+ }
+ .contect_blockCopy h4{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+ }
+ .contect_blockCopy p,a{
+    font-size: 14px;
+    color: rgb(237, 235, 235);
+    text-decoration: none;
+ }
+ .map_box{
+    background-color: rgb(255,255,255,0.1);
+    height: 91%;
+    width: 49%;
  }
