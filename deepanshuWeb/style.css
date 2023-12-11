@@ -850,9 +850,12 @@
    background-color: #18d26e;
 }
 .portflio_box .cover{
-   background-color: rgba(0, 0, 0, 0.6);
+   background-color: rgba(0, 0, 0, 0);
    height: 300px;
    width: 100%;
+}
+.cover:hover{
+   background-color: rgba(0, 0, 0, 0.6);
 }
 .top{
    width: 100%;
