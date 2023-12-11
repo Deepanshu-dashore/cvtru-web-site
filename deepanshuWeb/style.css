@@ -145,6 +145,10 @@
     color: white;
     border-bottom: 2px #18d26e solid;
 }
+.About-navlinks a:active{
+   color: white;
+   border-bottom: 2px #18d26e solid;
+}
 /* ----this is main box that is contend all about informainon of about page---  */
 .About-container{
 
@@ -850,30 +854,49 @@
    background-color: #18d26e;
 }
 .portflio_box .cover{
-   background-color: rgba(0, 0, 0, 0.6);
+   background-color: rgba(0, 0, 0, 0.8);
    height: 300px;
-   width: 100%;
-}
-.top{
-   width: 100%;
-   height: 50%;
-   background-color: #ff3ae2;
-}
-.bottom{
-   width: 100%;
-   height: 50%;
-   background-color: #18d26e;
+   width: 106.8%;
+   position: relative;
+   left: -12px;
    display: flex;
-   justify-content: flex-end;
-   align-items: end;
+   justify-content: center;
+   align-items: center;
+   opacity: 0%;
+   transition: 0.4s;
 }
-.box{
+.cover i{
+   font-size: 50px;
+   color: #18d26e;
+}
+/* .cover .top{
    height: 100px;
    width: 100px;
    background-color: white;
+   position: relative;
+   left: -20px;
+   top: -55px;
+   z-index: -3;
 }
-.poli_content{
-   height: 100%;
-   width: 100%;
+.cover .bottom{
+   height: 100px;
+   width: 100px;
+   background-color: white;
+   position: relative;
+} */
+.cover .box{
    background-color: black;
+   height: 196px;
+   width: 275px;
+   transform: scale(1.3);
+   display: flex;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 100;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.cover:hover{
+   opacity: 100%;
+   
 }
