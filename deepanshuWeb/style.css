@@ -805,7 +805,8 @@
    align-items: center;
 }
 .portflio_col{
-   background-color: white;
+   background-image: url("images/Screenshot\ 2023-12-10\ 213437.png");
+   background-size: cover;
    height: 89.5%;
    width: 31.5%;
 }
@@ -854,7 +855,7 @@
    background-color: #18d26e;
 }
 .portflio_box .cover{
-   background-color: rgba(0, 0, 0, 0.8);
+   background-color: rgba(0, 0, 0, 0.6);
    height: 300px;
    width: 106.8%;
    position: relative;
@@ -869,34 +870,37 @@
    font-size: 50px;
    color: #18d26e;
 }
-/* .cover .top{
+ .cover .top{
    height: 100px;
    width: 100px;
    background-color: white;
    position: relative;
-   left: -20px;
-   top: -55px;
-   z-index: -3;
+   translate: 335px 82px;
+   z-index: 0;
 }
-.cover .bottom{
-   height: 100px;
+ .cover .bottom{
+    height: 80px;
    width: 100px;
    background-color: white;
    position: relative;
-} */
+   translate: -49px -93px;
+   z-index: 0;
+} 
 .cover .box{
    background-color: black;
-   height: 196px;
-   width: 275px;
+   height: 197px;
+   width: 560px;
    transform: scale(1.3);
    display: flex;
    font-family: 'Raleway', sans-serif;
    font-weight: 100;
    flex-direction: column;
    justify-content: center;
+   position: relative;
+   left: -50px;
+   right: 0;
    align-items: center;
 }
-.cover:hover{
+.cover:hover {
    opacity: 100%;
-   
 }
