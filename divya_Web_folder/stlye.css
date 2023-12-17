@@ -15,9 +15,13 @@ nav {
   position: fixed;
 }
 
-.profile i {
-  font-size: 170px;
-
+.profile div {
+  height: 130px;
+  width: 130px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  background-image: url("image/avtarpic.jpg");
+  background-size: cover;
 }
 
 .navlinks {
@@ -383,7 +387,7 @@ width: 220px;
 .rpart2 {
   height: 500px;
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
 }
 
  /* portflios page style */
@@ -430,6 +434,7 @@ width: 220px;
     background-color: #149ddd;
     height: 20%;
     width: 100%;
+    border: 3px solid #149ddd;
     border-radius: 0px 0px 0px 30px;
     display: flex;
     align-items: center;
@@ -449,7 +454,7 @@ width: 220px;
  }
 .navsadow{
   height: 100%;
-  width: 17%;
+  width: 16%;
   background-color: #149ddd;
 }
 #superclassdsiplaydivallparent{
