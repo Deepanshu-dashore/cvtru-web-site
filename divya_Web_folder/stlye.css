@@ -18,10 +18,11 @@ nav {
 .profile div {
   height: 130px;
   width: 130px;
-  border: 2px solid gray;
+  border: 4px solid rgb(134, 128, 128);
   border-radius: 50%;
   background-image: url("image/avtarpic.jpg");
   background-size: cover;
+
 }
 
 .navlinks {
@@ -131,7 +132,7 @@ nav {
 
 .box_h1_main{
   border-bottom: 5.5px double #149ddd;
-  width: 150px;
+  width: 300px;
   margin-left: 15px;
 }
 
@@ -371,6 +372,7 @@ width: 220px;
   border-bottom: 2px solid navy;
 }
 
+
 .rmain {
   display: flex;
   margin-left: 290px;
@@ -462,4 +464,27 @@ display: flex;
 width: 100%;
 overflow: hidden;
 height: 700vh;
+}
+#contactid{
+  width: 100%;
+  height: 1000px;
+}
+.mainpartcon{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+ 
+}
+.conpart1{
+  width: 25%;
+  height: 600px;
+  background-color: rgba(207, 58, 58, 0.342);
+  padding: 10px;
+}
+.conpart2{
+  width: 68%;
+  height: 600px;
+  background-color: rgba(202, 29, 29, 0.342);
 }
