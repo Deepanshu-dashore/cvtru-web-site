@@ -152,7 +152,7 @@
 /* ----this is main box that is contend all about informainon of about page---  */
 .About-container{
 
-    height: 1520px;
+    height: 1600px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -985,7 +985,7 @@
    font-family: 'PT Serif', serif;
    font-weight: normal;
    background-color: rgba(0, 0, 0, 0.6);
-   box-shadow: 4px 3px 3px 2px #18d26e;
+   box-shadow: 6px 6px 0px 0px #18d26e;
 }
 .info_row h1 span{
 color: #18d26e;
