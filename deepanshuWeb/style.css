@@ -845,11 +845,11 @@
 .portfoli_hedding p{
     /* background-color: #18d26e; */
     margin-left: 12px;
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     width: auto;
     padding: 5px 10px;
     display: flex;
-    word-spacing: 2.3px;
+    word-spacing: 2.5px;
     align-items: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
@@ -1039,10 +1039,10 @@ font-family: 'Raleway', sans-serif;
    font-weight: 400;
    font-family: 'Open Sans', sans-serif;
 }
-.info_icon_next i,.info_icon_prev i{
+.info_icon_next i,.info_icon_prev i,.cut{
 color: rgba(255, 255, 255, 0.4);
 }
-.info_icon_next i:hover,.info_icon_prev i:hover{
+.info_icon_next i:hover,.info_icon_prev i:hover,.cut:hover{
 color: #18d26e;
 }
 .info_icon_next{
@@ -1056,4 +1056,10 @@ color: #18d26e;
    top: 360px;
    font-size: 35px;
    left: 10px;
+}
+.cut{
+   position: absolute;
+   top: 55px;
+   font-size: 40px;
+   right: 38px;
 }
