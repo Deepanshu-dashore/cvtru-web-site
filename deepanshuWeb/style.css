@@ -955,7 +955,7 @@
    background-size: cover;
    background-repeat: no-repeat;
    width: 100%;
-   position: fixed;
+   position: fixed;      
    top: 0;
   }
   @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
