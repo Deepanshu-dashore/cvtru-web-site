@@ -37,6 +37,7 @@
     font-weight: 400;
     font-size: 16px;
     width: 20px;
+    transition: 0.5S;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 .homelinks{
@@ -84,6 +85,7 @@
     align-items: center;
     background-color: rgba(31, 31, 31, 0.8);
     border-radius: 50%;
+    transition: 0.5S;
     text-align: center;
 }
 .media a:hover{
