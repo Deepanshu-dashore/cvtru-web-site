@@ -1041,10 +1041,10 @@ font-family: 'Raleway', sans-serif;
    font-weight: 400;
    font-family: 'Open Sans', sans-serif;
 }
-.info_icon_next i,.info_icon_prev i,.cut{
+.info_icon_next i,.info_icon_prev i,.cut,.info_icon_next2 i,.info_icon_prev2 i,.cut2,.info_icon_next3 i,.info_icon_prev3 i,.cut3{
 color: rgba(255, 255, 255, 0.4);
 }
-.info_icon_next i:hover,.info_icon_prev i:hover,.cut:hover{
+.info_icon_next i:hover,.info_icon_prev i:hover,.cut:hover,.info_icon_next2 i:hover,.info_icon_prev2 i:hover,.cut2:hover,.info_icon_next3 i:hover,.info_icon_prev3 i:hover,.cut3:hover{
 color: #18d26e;
 }
 .info_icon_next{
@@ -1061,10 +1061,46 @@ color: #18d26e;
 }
 .cut{
    position: absolute;
-   top: 55px;
+   top: 7.5%;
    font-size: 40px;
    right: 38px;
 }
+/* .info_icon_next2{
+   position: absolute;
+   top: 150%;
+   font-size: 35px;
+   left: 97.2%;
+}
+.info_icon_prev2{
+   position: absolute;
+   top: 150%;
+   font-size: 35px;
+   left: 0.3%;
+}
+.cut2{
+   position: absolute;
+   top: 107.5%;
+   font-size: 40px;
+   right: 38px;
+}
+.info_icon_next3{
+   position: absolute;
+   top: 250%;
+   font-size: 35px;
+   left: 97.2%;
+}
+.info_icon_prev3{
+   position: absolute;
+   top: 250%;
+   font-size: 35px;
+   left: 0.3%;
+}
+.cut3{
+   position: absolute;
+   top: 207.5%;
+   font-size: 40px;
+   right: 38px;
+} */
 #first #second #third{
    width: 100%;
    height: 100vh;
@@ -1072,5 +1108,4 @@ color: #18d26e;
 .slider_box{
 width: 100%;
 height: 100vh;
-overflow: hidden;
 }
