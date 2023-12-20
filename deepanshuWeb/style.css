@@ -121,6 +121,7 @@
     font-family: sans-serif;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     width: 20px;
+    transition: 0.4s;
 }
 .logo a{
     text-decoration: none;
@@ -182,12 +183,15 @@
     margin-top: 8px;
 }
 .Aboutpic img{
-    height: 50vh;
-    width: 34vh;
+    height: 60vh;
+    width: 55vh;
+    /* height: 100%;
+    width: 100%; */
 }
 .Aboutpic{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .About-details .heding{
  color: #18d26e;
@@ -808,7 +812,7 @@
 }
 .portflio_col1{
    background-image: url("images/ifosection_img/kyhome.png");
-   background-size: 100% 100%;
+   background-size: 100% 110%;
    /* background-position: -90px 0px; */
    background-repeat: no-repeat;
    height: 89.5%;
