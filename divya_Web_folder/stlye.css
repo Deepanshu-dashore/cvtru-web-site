@@ -20,7 +20,7 @@ nav {
   width: 130px;
   border: 4px solid rgb(134, 128, 128);
   border-radius: 50%;
-  background-image: url("image/avtarpic.jpg");
+  background-image: url("image/WhatsApp\ Image\ 2023-12-20\ at\ 3.12.24\ PM.jpeg");
   background-size: cover;
 
 }
@@ -125,12 +125,13 @@ nav {
   padding-top: 20px;
   text-transform: uppercase;
   width: 350px;
+  font-size: 25px;
 }
 
 .box_h1_main{
   border-bottom: 5.5px double #149ddd;
   width: 50px;
-  margin-left: 40px;
+  margin-left:30px;
   margin-bottom: 20px;
 }
 
@@ -161,6 +162,7 @@ nav {
 .about_hadding h1{
   color: navy;
   text-decoration: underline #149ddd;
+  font-size: 20px;
 }
 
 .pic {
@@ -196,7 +198,7 @@ nav {
 .icon_ABOUT{
   text-decoration: none;
   color: navy;
- font-size: 28px;
+ font-size: 22px;
 width: 220px;
 }
 
