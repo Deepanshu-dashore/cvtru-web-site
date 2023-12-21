@@ -8,7 +8,7 @@ nav {
   background-color: #040b14;
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 17.2%;
   height: 100vh;
   align-items: center;
   justify-content: space-evenly;
@@ -50,17 +50,21 @@ nav {
 
 }
 
-.icon {
-  width: 150px;
-  height: 20px;
+.icon_nave {
+  width: 95%;
+  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.icon i {
-  font-size: 17px;
-  padding: 12px;
+.icon_nave i {
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   background-color: rgba(16, 49, 63, 0.507);
 }
@@ -114,8 +118,9 @@ nav {
   color: white;
 }
 
-.icon i:hover {
-  background-color: rgb(128, 186, 219);
+.icon_nave i:hover {
+  background-color:#149ddd;
+  color: white;
 }
 
 .navlinks i:hover {
