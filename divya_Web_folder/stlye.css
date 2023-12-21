@@ -264,8 +264,8 @@ nav {
 }
 
 .box {
-  height: 480px;
-  width: 1100px;
+  height: 60%;
+  width: 93%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
