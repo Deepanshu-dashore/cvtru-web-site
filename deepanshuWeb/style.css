@@ -418,6 +418,7 @@
     border: 1px solid black;
     overflow: hidden;
    }
+
    .picbox_row
    {
     margin-bottom: 15px;
@@ -667,6 +668,9 @@
  .con_p2 i{
     font-size: 18px;
  }
+ .con_p2 i:hover{
+   color: #18d26e;
+}
  .from{
     background-color: rgba(255, 255, 255, 0.1);
     height: 400px;
@@ -883,7 +887,7 @@
    transition: 0.5s;
 }
 .portfoli_iBox i{
-   font-size: 32px;
+   font-size: 25px;
    color: #18d26e;
 }
 
@@ -894,7 +898,7 @@
    align-items: center;
 }
 .portfoli_iBox span i{
-   font-size: 22px;
+   font-size: 32px;
 }
 .cover .top{
    width: 100%;
