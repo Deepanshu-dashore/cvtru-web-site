@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
@@ -17,28 +16,47 @@
 </head>
 <body>
        <!-- -----nav stert for about page-----  -->
-       <nav class="ABout-nav">
-        <div class="logo">
-          <a href="indexStatic.html" target="_blank">Deepanshu dashore</a>
+         
+       <nav class="navbar navbar-expand-lg bg-body-dark ABout-nav">
+        <div class="container-fluid">
+          <div class="ms-xxl-5 ms-sm-0 ms-md-1">
+          <a class="navbar-brand text-white" href="index.html" target="_blank">Deepanshu dashore</a>
         </div>
-        <div class="About-navlinks">
-          <a href="index.html">Home</a>
-          <a href="aboutStatic.html">about</a>
-          <a href="resumeStatic.html">resume</a>
-          <a href="portfoliStaic.html">portfolio</a>
-          <a href="contectStatic.html">contact</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutStatic.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a href="resumeStatic.html" class="nav-link">resume</a>
+              </li>
+              <li class="nav-item">
+                <a href="portfoliStaic.html" class="nav-link">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="contectStatic.html" class="nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
+
       <!-- ------nav end---- -->
          <!-- ----------------------------about page stated------------------------- -->
       <div id="ResumePage"><!--div for add background--></div>
       <!-- --------------------------- rasume main contaner stert------------------------ -->
-      <div class="resume-container container mt-4"> <!-- coner heading -->
+      <div class="resume-container container mt-4 "> <!-- coner heading -->
         <h6 class="pt-3 px-4 container r-coner">Resume<span>&nbsp;___________________</span></h6>
        <!-- ----------main hading-------------- -->
         <h1 class="About-h1 px-4 container">CHECK MY RESUME</h1>  
 
-        <div class="row rasume-row">
+        <div class="row rasume-row .bg-secondary-subtle">
           <!-- ---------colomun 1 stert------------ -->
              <div class="col-xl-6 col-sm-12 col-md-12 container">
               <h4 class="mx-1 mb-4">Summary</h4>
@@ -124,6 +142,8 @@
         </div>
 
         </div><!--main contanet colse-->
+  
+        <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
