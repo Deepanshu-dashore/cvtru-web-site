@@ -107,7 +107,13 @@
 }
 .navbar-toggler{
      border: #0fe473 2px solid;
-     background-color: rgb(255,255,255,0.1);
+     background-color: #000000;
+}
+.navbar-toggler span {
+   font-family: monospace;
+   text-transform: capitalize;
+   font-size: 4.5vw;
+   color: #0fe473;
 }
 
 
@@ -217,7 +223,7 @@ background-color: black;
 }
 .Aboutpic img{
     height: 60vh;
-    width: 55vh;
+    width: 40vmax;
     /* height: 100%;
     width: 100%; */
 }
@@ -383,51 +389,58 @@ background-color: black;
         display: flex;
         align-items: center;
         justify-content: left;
-        font-size: 22px;
+        font-size: 1.6vmax;
         font-family: 'Rajdhani', sans-serif;;
         text-transform: uppercase;
         color: white;
+    }
+    @media screen and (max-width : 700px) {
+      .hobbi{
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-evenly;
+         text-align: center;
+      }
     }
     .hobbi:hover{
         background-color: rgb(255,255,255,0.2);
     }
    .hobbi_row{
     width: 100%;
-    height: 100px;
    }
    .icon_1{
     color: rgb(255, 20, 169);
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 25px;
     margin-right: 25px;
    }
    .icon_2{
     color: #ffbf00;
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 25px;
     margin-right: 25px;
    }
    .icon_3{
     color: rgb(20, 149, 255);
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 25px;
     margin-right: 25px;
    }
    .icon_4{
     color: rgb(130, 20, 255);
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 25px;
     margin-right: 25px;
    }
    .icon_5{
     color: #18d26e;
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 25px;
     margin-right: 25px;
    }
    .icon_6{
     color: #ff3ae2;
-    font-size: 40px;
+    font-size: 2.5vmax;
     margin-left: 20px;
     margin-right: 10px;
    }
@@ -618,6 +631,30 @@ background-color: black;
     height: 255px;
     margin-left: 3px;
  }
+/* --------------------media query for rasume elment columns----------- */
+ @media screen and (max-width : 600px) {
+   .rsaume-colum1{
+      height: 35%;
+   }
+   .rsaume-colum2{
+      height: 20%;
+   }
+   .rsaume-colum2_bachalar{
+      height: 27%;
+   }
+   .rasume-row .column-2{
+      margin-top: 60%;
+      margin-bottom: 10%;
+   }
+   .rsaume-colum6{
+      height: 34%;
+   }
+   .rsaume-colum5{
+      height: 9.5%;
+   }
+ }
+
+
  /* ---------contect page styling-------------- */
  /* ----this is main box that is contend all about informainon of about page---  */
  .contect-container{
@@ -716,6 +753,29 @@ background-color: black;
     height: 85px;
     
  }
+
+@media screen and (max-width: 1200px) {
+   .contect_row{
+      display: block;
+      margin-bottom: 37%;
+   }
+   .con_col{
+      width: 90vw;
+      margin-bottom: 20px;
+   }
+   .form_row{
+      display: block;
+      width: 95.5vh;
+      padding-top: 5%;
+   }
+   .form_row .col-6 input{
+      margin-bottom: 5.5%;
+   }
+   .Subject input{
+      margin-top: 18%;
+   }
+}
+
  .form_row .col-6 input{
     width: 100%;
     height: 44px;
@@ -843,9 +903,15 @@ background-color: black;
    color: white;
 }
 .portflio_row{
-   height: 330px;
+   /* height: 330px; */
    width: 99.8%;
    align-items: center;
+}
+@media screen and (max-width :1200px) {
+   .portflio_row{
+      display: block;
+   }
+  
 }
 .portflio_col1{
    background-image: url("images/ifosection_img/kyhome.png");
@@ -1117,12 +1183,12 @@ height: 100vh;
 }
 
 @media screen and (max-width: 1200px) {
-   .About-container,.resume-container {
+   .About-container,.resume-container,.contect-container {
      height: 100% !important;
      padding-bottom: 40px;
    }
    #AboutPage, #ResumePage{
       height: 100% !important;
-      width: 100%;
+      width: 100vw;
    }
  }
