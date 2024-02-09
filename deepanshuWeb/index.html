@@ -30,11 +30,11 @@
       <div class="contant">
         <h1 class="homeH1">Deepanshu Dashore</h1>
         <h2 class="homeH2">
-          I'm a passionate <span>web designer</span> from India
+          I'm a passionate <span id="title"s>web designer</span> from India
         </h2>
         <nav class="Home-nav">
         <div class="homelinks">
-          <a href="#HomePage">home</a>
+          <a href="#HomePage" id="homelnk">home</a>
           <a href="aboutStatic.html">about</a>
           <a href="resumeStatic.html">resume</a>
           <a href="portfoliStaic.html">portfolio</a>
@@ -56,5 +56,23 @@
         </div>
       </div>
     </div>
+    <script>
+       let glow=document.getElementById("homelnk");
+       glow.style.color="white";
+       let i=0;
+       glow.style.borderBottom="2px #18d26e solid";
+       let title=document.getElementById("title");
+       const titles=["web designer","logo designer","photo editor"];
+       setInterval(changeTitle,1000);
+
+       function changeTitle(){
+        title.innerText=(titles[i]);
+        i++;
+        if(i==3){
+          i=0;
+        }
+       }
+
+    </script>
   </body>
 </html>
