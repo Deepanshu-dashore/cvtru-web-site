@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+      }
+      .image {
+        width: 30%;
+        height: 80%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .image > img {
+        height: 100%;
+        width: 70%;
+      }
+      .content {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .btnn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .btn{
+        height: 45px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image card shadow-lg bg-body-tertiary rounded" id="card"><img src="js.png" alt="" /></div>
+      <div class="content">
+        <h3>Java Script</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          velit eum. Officia repellat quo pariatur nobis, nulla perspiciatis
+          reiciendis accusamus possimus molestiae eveniet ut voluptas quod
+          dolorem praesentium quam veritatis ratione in quaerat laboriosam?
+          Laudantium eaque quae voluptatem, voluptatibus neque nulla, reiciendis
+          rerum accusantium atque hic modi amet debitis natus placeat tempora
+          eum. Commodi sit ratione doloribus dolorum excepturi repellat
+          nesciunt, suscipit dicta at recusandae? Voluptate maxime tempore
+          expedita facere molestias nemo dolor itaque ipsam sed sunt id,
+          voluptas quo ut debitis officia. Magni alias maxime aliquid deleniti.
+          Voluptates ea quisquam ex sint! Eos labore nihil molestias illo
+          quisquam voluptate at esse sit, omnis fugiat, quaerat dolorem maxime!
+          Iste doloribus ut cum nihil itaque non ipsa! Perspiciatis, illum?
+          Voluptatem quos necessitatibus accusamus veniam quo. Magnam nisi
+          reprehenderit in officiis odit, labore ad expedita veniam dolor
+          reiciendis sit id sint, sunt veritatis libero aut. Perspiciatis
+          cupiditate nobis, sequi soluta est cumque? Quia quod alias veritatis
+          dolorum rerum pariatur quo eveniet quos fugiat vel dolore, similique
+          deleniti beatae temporibus dolores, molestiae voluptatibus, est
+          possimus distinctio asperiores itaque labore! Repudiandae culpa
+          incidunt excepturi distinctio alias ipsam fugiat recusandae autem,
+          veniam sint? Distinctio vitae vel porro ipsum quis temporibus harum
+          quasi earum modi quibusdam?
+        </p>
+        <div class="btnn">
+          <button id="btn" class="btn btn-primary" onclick="SwapMode()"><i class="bi bi-highlights"></i>  Swap Mode</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        let currentMode="light";
+        let body=document.querySelector("body");
+        let btn=document.getElementById("btn");
+        let card=document.getElementById("card");
+        function SwapMode(){
+            if(currentMode==="dark"){
+          currentMode="light";
+          body.style.backgroundColor="white";
+          body.style.color="black";
+          btn.style.backgroundColor="blue";
+          card.style.backgroundColor="white";
+        }
+        else{
+          currentMode="dark";
+          body.style.backgroundColor="black";
+          body.style.color="white";
+          btn.style.backgroundColor="black";
+          card.style.backgroundColor="black";
+          card.style.border="white";
+          card.style.boxShadow="0px 0px 100px white";
+        }
+        }
+        
+    </script>
+  </body>
+</html>

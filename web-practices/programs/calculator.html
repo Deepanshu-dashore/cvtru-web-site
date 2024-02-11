@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+       body{
+           display: flex;
+           align-items: center;
+           justify-content: center ;
+           height: 100vh;
+           width: 100vw;
+       }
+       .calculator{
+           height: 400px;
+           width: 480px;
+           display: flex;
+           align-items: center;
+           text-transform: capitalize;
+           font-family: 'Times New Roman', Times, serif;
+           justify-content: center;
+           font-size: 18px;
+           background-color: rgb(83, 82, 82);
+           color: white;
+       }
+       .bottom{
+           width: 100%;
+           height: 50%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-evenly;
+       }
+       .bg-primary{
+           padding: 5px;
+           border-radius: 5px;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+           height: 48px;
+           width: 75%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .bg-primary h3{
+           font-size: 18px;
+           overflow: hidden;
+       }
+       .operator{
+           height: 40px;
+           width: 50px;
+           color: white;
+           font-weight: bolder;
+           font-size: 19px;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+       .equel{
+           height: 40px;
+           width: 100px;
+           color: white;
+           font-size: 19px;
+           font-weight: bolder;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif'
+       }
+       button{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       tr{
+           margin-top: 20px;
+           margin-bottom: 20px;
+       }
+       table{
+           height: 30%;
+       }
+      td{
+       margin-right: 10px;
+       margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator card shadow-lg">
+      <h1>calculator</h1>
+      <table>
+        <tr>
+          <td>
+            <label for="firstValue" class="bg-success w-100 px-2 h-50"
+              >first value</label
+            >
+          </td>
+          <td><input type="number" id="firstValue" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="secondValue" class="bg-success w-100 h-50"
+              >Second value</label
+            >
+          </td>
+          <td>
+            <input type="number" id="secondValue" />
+          </td>
+        </tr>
+      </table>
+      <div class="bottom mt-3">
+        <div class="bg-primary"><h3 id="result">Result</h3></div>
+        <div class="bg-primary"><h3 id="operation">operation</h3></div>
+
+        <div>
+          <button class="btn btn-warning operator" onclick="add()">+</button>
+          <button class="btn btn-warning operator" onclick="sub()">-</button>
+          <button class="btn btn-warning operator" onclick="multi()">*</button>
+          <button class="btn btn-warning operator" onclick="div()">/</button>
+          <button class="btn btn-warning operator" onclick="rem()" style="font-size: 13px;">rem</button>
+          <button class="btn btn-danger equel" onclick="clr()">clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function add() {
+        var num1 = +document.getElementById("firstValue").value;
+        var num2 = +document.getElementById("secondValue").value;
+        var total = num1 + num2;
+        document.getElementById("result").innerText = (`Result = ${total}`);
+        document.getElementById("operation").innerText = (`Operation +`);
+      }
+      function sub() {
+        var num1 = +document.getElementById("firstValue").value;
+        var num2 = +document.getElementById("secondValue").value;
+        var total = num1 - num2;
+        document.getElementById("result").innerText = (`Result = ${total}`);
+        document.getElementById("operation").innerText = (`Operation -`);
+      }
+      function multi() {
+        var num1 = +document.getElementById("firstValue").value;
+        var num2 = +document.getElementById("secondValue").value;
+        var total = num1 * num2;
+        document.getElementById("result").innerText = (`Result = ${total}`);
+        document.getElementById("operation").innerText = (`Operation *`);
+      }
+      function div() {
+        var num1 = +document.getElementById("firstValue").value;
+        var num2 = +document.getElementById("secondValue").value;
+        var total = num1 / num2;
+        document.getElementById("result").innerText = (`Result = ${total}`);
+        document.getElementById("operation").innerText = (`Operation /`);
+      }
+      function rem() {
+        var num1 = +document.getElementById("firstValue").value;
+        var num2 = +document.getElementById("secondValue").value;
+        var total = num1 % num2;
+        document.getElementById("result").innerText = (`Result = ${total}`);
+        document.getElementById("operation").innerText = (`Operation remender`);
+      }
+      function clr() {
+        document.getElementById("firstValue").value=("");
+        document.getElementById("secondValue").value=("");
+        document.getElementById("result").innerText = (`Result`);
+        document.getElementById("operation").innerText = (`Operation`);
+      }
+    </script>
+  </body>
+</html>

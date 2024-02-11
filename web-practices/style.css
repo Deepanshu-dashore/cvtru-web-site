@@ -1,0 +1,121 @@
+.logo{
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-shadow: 1.5px 1.5px 3px black;
+    padding-left: 3.5%;
+    padding-right: 20px;
+}
+.logo span{
+    font-size: 25px;
+
+}
+body{
+    background-color: rgba(98, 0, 255, 0.594);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to top right,#8d00ff,#bb00ff,#fb00ff,#ff008c);
+    color: white;
+    height: 3.8em ;
+}
+nav svg{
+    border: 6px groove rgb(79, 255, 190);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+nav button{
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 2%;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.taskrow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media  screen and (max-width:1200px) {
+    .taskrow{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+.colu{
+    height: 490px!important;
+    width: 320px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.progressTitle{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+}
+ .video{
+    height: 250px;
+    width: 290px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.8px solid rgba(0, 0, 0, 0.272);
+}
+.video video{
+  height: 250px;
+  position: relative;
+  left: -85px;
+}
+.colu h3{
+   font-family: 'Times New Roman', Times, serif;
+   padding-top: 2.5px;
+   padding-bottom: 2.5px;
+   width: 100%;
+   text-shadow: 1.5px 1.5px 3px black;
+   text-align: center;
+   color: white;
+}
+.colu a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.colu a i{
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(0, 255, 149);
+}
+.colu p{
+    width: 260px;
+    font-size: 14px;
+    text-align: justify;
+}
+.Phading{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+/* .traile iframe{
+    height: 300px;
+    width: 450px;
+}
+.traile{
+    height: 50vh;
+    width: 100%;
+} */
