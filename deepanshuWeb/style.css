@@ -47,21 +47,30 @@
 }
 #HomePage{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
     justify-content: center;
 }
 .contant{
     text-align: start;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 8%;
+    left: 6%;
     justify-content: space-evenly;
-    width: 50%;
+    width: 48%;
     letter-spacing: 2px;
     height: 40%;
 }
+.content2{
+   margin-top: 7%;
+   width: 40%;
+   height: 80%;
+   background-image: url("images/Untitled_design__1_-removebg-preview.webp");
+   background-size: cover;
+}
+
 .contant span{
    border-bottom:  2px solid #18d26e;
    color: white;
