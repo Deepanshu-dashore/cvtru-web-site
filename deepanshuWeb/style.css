@@ -27,6 +27,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     font-weight: bolder;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
 }
 .homelinks a{
@@ -45,12 +46,13 @@
     display: flex;
     justify-content: space-between;
 }
-#HomePage{
-    display: flex;
-    /* flex-direction: column; */
+.homerow{
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
+
 .contant{
     text-align: start;
     margin-top: 15%;
@@ -71,10 +73,28 @@
    background-size: cover;
 }
 
-.contant span{
+.contant #title{
    border-bottom:  2px solid #18d26e;
    color: white;
    font-weight: bolder;
+   white-space: nowrap;
+   margin:0% auto;
+   border-right: 5px solid #18d26e;
+   /* animation: corser .3s alternate infinite step-end, */
+   animation:  typing 1s steps(20, end) forwards;
+}
+@keyframes corser {
+   50%{
+      border-right-color:  transparent;
+   }
+}
+@keyframes typing {
+   0%{
+      width: 0px;
+   }
+   100%{
+      width: 100%;
+   }
 }
 .media{
     display: flex;
@@ -99,6 +119,10 @@
 }
 .media a:hover{
     background-color: #18d26e;
+}
+#title ::after{
+   content: " ";
+   border-right: 2px solid #18d26e;
 }
 
 /* -------------------About page styling startes --------------------------- */
@@ -520,7 +544,7 @@ background-color: black;
    /* ----this is main box that is contend all about informainon of about page---  */
 .resume-container{
 
-    height: 1130px;
+    height: 1480px;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 100px;
@@ -635,11 +659,21 @@ background-color: black;
     height: 80px;
     margin-left: 3px;
  }
+ .rsaume-colum5-google{
+   border-left: 2px solid rgb(255,255,255,0.3);
+   height: 190px;
+   margin-left: 3px;
+}
  .rsaume-colum6{
-    border-left: 2px solid rgb(255,255,255,0.3);
-    height: 255px;
-    margin-left: 3px;
- }
+   border-left: 2px solid rgb(255,255,255,0.3);
+   height: 260px;
+   margin-left: 3px;
+}
+.rsaume-colum7{
+   border-left: 2px solid rgb(255,255,255,0.3);
+   height: 220px;
+   margin-left: 3px;
+}
 /* --------------------media query for rasume elment columns----------- */
  @media screen and (max-width : 600px) {
    .rsaume-colum1{
@@ -656,10 +690,13 @@ background-color: black;
       margin-bottom: 10%;
    }
    .rsaume-colum6{
-      height: 34%;
+      height: 26%;
    }
    .rsaume-colum5{
       height: 9.5%;
+   }
+   .rsaume-colum7{
+      height: 25%;
    }
  }
 
