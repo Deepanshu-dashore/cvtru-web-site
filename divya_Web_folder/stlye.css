@@ -2,6 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+:root{
+  --blue: #149ddd;
+}
+#title{
+  color: var(--blue);
+  font-size: 30px;
+  font-family: cursive;
+}
 
 nav {
   color: antiquewhite;

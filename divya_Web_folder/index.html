@@ -48,7 +48,7 @@
 
         <h1><i>Divya Panwar</i></h1>
         <br>
-        <h3>I am passionate Web Designer</h3>
+        <h3>I am passionate <span id="title"></span></h3>
       </div>
 
     </div>
@@ -59,7 +59,7 @@
   <div class="main" id="myab">
     <div class="box_h1_main"> <h1 class="main_h1">About</h1></div>
    
-    <h3 class="about_H3_top">Hello EveryOne , I am Divya Panwar , a passionate web Designer in khandwa. My design approach combines
+    <h3 class="about_H3_top">Hello EveryOne , I am Divya Panwar , a passionate web Desinger  in khandwa. My design approach combines
       creativity, functionality and attention to details</h3>
 
     <div class="aboutmain">
@@ -303,6 +303,16 @@
 
 
 </div>
+<script>
+  let titlebar=document.getElementById('title');
+  let i=0;
+  let arrayy=['web designer','videographer','photoeditor'];
+  setInterval(titlee,2000)
+  function titlee(){
+    titlebar.innerText=arrayy[i];
+    i++;
+  }
+</script>
    
 </body>
 
